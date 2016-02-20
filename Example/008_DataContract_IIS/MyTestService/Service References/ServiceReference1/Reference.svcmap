@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a9731570-cf35-4f97-8bfd-c9617518f0fd" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/DataContract/service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="345d5f0d-8b47-4d13-80fb-8d9922ef5540" SourceId="1" SourceUrl="http://home-pc/DataContract/service.svc?wsdl" />
+    <MetadataFile FileName="service1.wsdl" MetadataType="Wsdl" ID="bd6d588a-5af0-4bfc-aa9c-c6d6da005383" SourceId="1" SourceUrl="http://home-pc/DataContract/service.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="b6c714a3-8f14-46cf-9484-56baa643d829" SourceId="1" SourceUrl="http://home-pc/DataContract/service.svc?xsd=xsd1" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="87075e35-b8dc-4489-9f03-f285d53cfbf1" SourceId="1" SourceUrl="http://home-pc/DataContract/service.svc?xsd=xsd0" />
+    <MetadataFile FileName="service.disco" MetadataType="Disco" ID="e9fe7dbb-92c9-457e-9b6a-7df5829e2ad8" SourceId="1" SourceUrl="http://home-pc/DataContract/service.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

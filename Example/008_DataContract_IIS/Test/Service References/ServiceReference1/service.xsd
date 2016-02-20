@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://My" elementFormDefault="qualified" targetNamespace="http://My" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Add">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="a" nillable="true" type="tns:Point" />
+        <xs:element minOccurs="0" name="b" nillable="true" type="tns:Point" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="Point">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="x" type="xs:double" />
+      <xs:element minOccurs="0" name="y" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Point" nillable="true" type="tns:Point" />
+  <xs:element name="AddResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddResult" nillable="true" type="tns:Point" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
